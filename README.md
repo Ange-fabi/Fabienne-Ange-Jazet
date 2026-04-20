@@ -89,71 +89,81 @@ table inet mon_filtre {
         ct state established,related accept
     }
 }
-**🛡️Détection**
-Mise en place d'un système de surveillance et de filtrage réseau pour identifier les comportements malveillants.
-- **Méthodologie :** Scan Nmap depuis Kali Linux (détection de ports filtrés).
-- **Analyse :** Exploitation des logs kernel avec mentions `INTRUSION_DETECTEE`.
-- **Tests :** Simulations de tentatives SYN sur ports variés (1132, 5002, 2047, 1310, 6580...).
+# Détection :
 
-![Règles nftables](./images/nftables-rules.png)
-![Logs intrusion](./images/intrusion-logs.png)
+- Scan Nmap depuis Kali (ports filtrés)
+- Logs kernel avec mentions INTRUSION_DETECTEE
+- Tentatives SYN sur ports variés (1132, 5002, 2047, 1310, 6580...)
+
+![nftables-rules](https://./images/nftables-rules.png)
+![intrusion-logs](https://./images/intrusion-logs.png)
+
+## 4. 🌐 Infrastructure réseau multisite (Cisco Packet Tracer)
+Routage et segmentation
+
+**Technologies mises en œuvre :**
+- Routage statique et RIP
+- VLANs et ACLs
+- DNS, DHCP, SSH
+
+**Compétences validées :** Configuration d'équipements Cisco, isolation des flux, gestion d'adressage IP.
+
+![cisco-vlan](https://./images/cisco-vlan.png)
+
+## 5. 🖧 Serveur DNS (Bind9)
+Résolution de noms interne
+
+**Configuration réalisée :**
+- Serveur DNS maître sur Debian
+- Zones forward et reverse
+- Résolution de noms pour un réseau local
+
+![dns-config](https://./images/dns-config.png)
+
+## 6. 🎮 Bataille navale en C (Visual Studio)
+Jeu en mode terminal
+
+**Fonctionnalités :**
+- Joueur vs ordinateur
+- Gestion des coups
+- Vérification des placements de bateaux
+- Boucle de jeu
+
+📹 **Démonstration vidéo :** (lien vers ta vidéo ou capture d'écran)
+
+**Code source :** [lien vers le dossier GitHub du projet]
+
+## 7. 🎲 Jeu Unity + IA (en cours)
+Développement d'un agent intelligent
+
+**État :** Projet en cours  
+**Prochaine étape :** Intégration d'un agent IA (pathfinding ou comportement automatique)  
+**Technologies :** C#, Unity
+
+📹 **Démonstration vidéo :** (lien vers ta vidéo de gameplay)
 
 ---
 
-### 4. 🌐 Infrastructure Réseau Multisite (Cisco Packet Tracer)
-Conception et segmentation d'une architecture réseau complexe.
-- **Technologies :** Routage statique & RIP, VLANs et ACLs (Access Control Lists).
-- **Services :** DNS, DHCP, SSH.
-- **Compétences :** Configuration d'équipements Cisco, isolation des flux, gestion d'adressage IP.
-
-![Topologie Cisco](./images/cisco-vlan.png)
-
----
-
-### 🖧 5. Serveur DNS (Bind9)
-Installation et configuration d'un service de résolution de noms interne sur Debian.
-- **Configuration :** Serveur DNS maître.
-- **Gestion :** Zones "Forward" et "Reverse" pour un réseau local.
-
-![Configuration DNS](./images/dns-config.png)
-
----
-
-### 🎮 6. Développement Software & Jeux
-
-#### **Bataille Navale en C** (Visual Studio)
-Jeu en mode terminal avec gestion complète de la logique de jeu.
-- **Fonctionnalités :** Mode Joueur vs Ordinateur, gestion des coups et vérification du placement des navires.
-- [🔗 Code source du projet](Lien-vers-ton-repo)
-
-#### **Jeu Unity + IA** (En cours) 🏗️
-Développement d'un agent intelligent en C#.
-- **Objectif :** Intégration d'un agent IA (pathfinding et comportements autonomes).
-- [📹 Voir la démonstration vidéo](Lien-vers-ta-video)
-
----
-
-## 🎓 Formations
+# 🎓 Formations
 
 | Diplôme | Établissement | Année |
-| :--- | :--- | :--- |
-| **1re année cycle ingénieur du numérique** | ESAI, Angers | 2025 - 2026 |
-| **Tronc commun cycle ingénieur** | ENSPD, Douala | 2023 - 2025 |
-| **Licence 1 Biochimie** | Université de Douala | 2022 - 2023 |
-| **Baccalauréat** | Douala, Cameroun | 2022 |
+|---------|--------------|-------|
+| 1re année cycle ingénieur du numérique (bac+3) | ESAI, Angers | 2025-2026 |
+| Tronc commun cycle ingénieur | ENSPD, Douala | 2023-2025 |
+| Licence 1 Biochimie | Université de Douala | 2022-2023 |
+| Baccalauréat | Douala, Cameroun | 2022 |
 
----
+# 🌍 Langues
 
-### 🗣️ Langues
-* **Français :** Natif
-* **Anglais :** Intermédiaire avancé
-* **Allemand :** Notions de base
+- **Français :** Natif
+- **Anglais :** Intermédiaire avancé
+- **Allemand :** Notions de base
 
-### 🤝 Engagement Citoyen
-* **Bénévole COP 1 – Angers** : Participation active aux initiatives locales.
+# 🤝 Engagements
 
----
+- Bénévole COP 1 – Angers
 
-## 📂 Ressources
-* [📄 Télécharger mon CV (PDF)](./Lien-vers-ton-cv.pdf)
-* [💻 Mon profil GitHub](https://github.com/ton-pseudo)
+# 📂 Téléchargements
+
+- [Mon CV (PDF)](#)
+- [Mon GitHub](https://github.com/)
