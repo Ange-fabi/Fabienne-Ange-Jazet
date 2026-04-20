@@ -119,6 +119,19 @@ Résolution de noms interne
 - Zones forward et reverse
 - Résolution de noms pour un réseau local
 
+```bind
+$TTL       604800
+@          IN  SOA   DNS.apero.local. root.apero.local. (
+                    2         ; Serial
+                    604800    ; Refresh
+                    86400     ; Retry
+                    2419200   ; Expire
+                    604800 )  ; Negative Cache TTL
+           IN  NS    DNS.apero.local.
+           IN  A     192.168.1.1
+client     IN  A     192.168.1.2
+DNS        IN  A     192.168.1.1
+```
 ![dns-config](./images/dns-config.png)
 
 ## 6. 🎮 Bataille navale en C (Visual Studio)
