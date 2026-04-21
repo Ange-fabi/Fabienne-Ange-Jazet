@@ -109,7 +109,30 @@ Routage et segmentation
 
 ![cisco-vlan](./images/cisco-vlan.png)
 
-## 5. 🖧 Serveur DNS (Bind9)
+### 5. 🌐 Routage et ACLs (Cisco Packet Tracer)
+*Contrôle d'accès réseau et filtrage*
+
+**Objectif** : Permettre ou bloquer la communication entre deux réseaux VLANs à l'aide d'une ACL (Access Control List).
+
+**Configuration réalisée** :
+- Mise en place d'un routage entre réseaux 
+- Vérification initiale : les deux PC (PC1 et PC2) peuvent ping le serveur
+- Configuration d'une ACL étendue (numéro 101) pour bloquer le réseau 192.168.11.0/24 vers 192.168.20.0/24
+- Application de l'ACL sur l'interface du routeur
+
+**Résultats** :
+- **Avant ACL** : ping réussi (Reply from 192.168.20.254)
+- **Après ACL** : "Destination unreachable" pour le PC du réseau 192.168.11.0
+
+![Ping réussi avant ACL](./images/routage-acl.png)
+![Ping bloqué après ACL](./images/routage-acl2.png)
+
+**Compétences validées** :
+- Routage inter-VLAN
+- ACLs étendues (access-list 100-199)
+- Filtrage de trafic IP
+- Cisco Packet Tracer
+## 6. 🖧 Serveur DNS (Bind9)
 Résolution de noms interne
 
 **Configuration réalisée :**
