@@ -5,3 +5,6 @@ theme: jekyll-theme-dinky
 logo: /images/photo.jpg
 show_downloads: false
 google_analytics: 
+github:
+  is_project_page: false
+  show_downloads: false
